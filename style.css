@@ -1,0 +1,82 @@
+/* Estilos generales del cuerpo */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e8f5e9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Contenedor principal */
+.contenedor {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 90%;
+  max-width: 600px;
+}
+
+/* Título principal */
+h1 {
+  color: #2e7d32;
+}
+
+/* Pregunta */
+#pregunta {
+  margin-bottom: 20px;
+}
+
+/* Lista de opciones */
+#opciones {
+  list-style: none;
+  padding: 0;
+}
+
+#opciones li {
+  margin: 10px 0;
+}
+
+#opciones button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 2px solid #2e7d32;
+  background-color: #a5d6a7;
+  color: #000;
+  border-radius: 5px;
+}
+
+#opciones button:hover {
+  background-color: #81c784;
+}
+
+/* Botón siguiente */
+#boton-siguiente {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #2e7d32;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#boton-siguiente:hover {
+  background-color: #1b5e20;
+}
+
+/* Resultado */
+#resultado {
+  margin-top: 20px;
+}
+
+.oculto {
+  display: none;
+}

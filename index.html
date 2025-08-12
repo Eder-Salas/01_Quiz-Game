@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz de Fútbol</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="contenedor">
+    <h1>⚽ Quiz de Fútbol</h1>
+    <div id="contenedor-pregunta">
+      <h2 id="pregunta">Pregunta aquí</h2>
+      <ul id="opciones">
+        <!-- Opciones se insertarán aquí con JavaScript -->
+      </ul>
+    </div>
+    <button id="boton-siguiente">Siguiente</button>
+    <div id="resultado" class="oculto">
+      <h2>Resultado final</h2>
+      <p id="texto-resultado"></p>
+      <button onclick="reiniciarJuego()">Reiniciar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
